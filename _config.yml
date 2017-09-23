@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: MotLab - MOTİVOLOG YAZILIM BİLİŞ.TEKNOL.MEDİK.SAN.VE TİC.LTD.ŞTİ.
 subtitle: "MOTİVOLOG YAZILIM BİLİŞ.TEKNOL.MEDİK.SAN.VE TİC.LTD.ŞTİ."
-url: "http://motlab.com" # the base hostname & protocol for your site
+url: "http://motlab.net" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/"
 cover: "/assets/cover.png"
