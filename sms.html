@@ -22,6 +22,78 @@ permalink: /sms-service/
     <div class="container">
         <div class="row">
           <div class="col-md-12">
+            <h2>Toplu SMS Gönderme Sistemi</h2>
+            <p>Kurulum ve bakım hizmetini alabileceğiniz bu sistem, saniye yüzlerce smsi gönderebileceğiniz, bayi, kullanıcı ve admin arayüzleri bulunan bir altyapıdır.  Sistemi size kurduğumuzda sizin ve bayileriniz için özel tasarlanmış web sitesi hizmeti de vereceğiz. Bunların hepsinin yönetimi bizim kontrolümüzde olup sizlerin isteklerine göre değişebilecektir. Ayrıca operatorler ile ara bağlantıların sağlanması sürecide teknik olarak bizim tarafımızdan size sağlanacaktır.</p>
+
+            <h3>Üye Arayüzü Özellikleri</h3>
+            <ol>
+              <li>Üye kendi kullanıcı adı ve şifre ile giriş yapabilir ve kalan kredisini rahatlıkla görebilir.</li>
+              <li>Üye daha önceki gönderdiği SMS'ler ile ilgili anasayfasında grafikler eşliğinde bir ön bilgi alabilir. (Bu ay gönderilen SMS'ler, Dün Gönderilen SMS'ler, İletilen SMS'ler, Ulaşmayan SMS'ler, ...)</li>
+              <li>Kullanıcı hiç bir kişiye başvurmasına gerek kalmadan üye arayüzü üzerinden kredi kartı ile sms kredisi satın alabilir.</li>
+              <li>Üye kendi cari bilgilerini üye arayüzü üzerinden rahatlıkla görebilir. İade edilen SMS ücretlerini, geçmiş kontör yüklemelerini, hesap bilgilerini rahatlıkla görüntüleyebilir ve ayrıca havale ya da EFT ile yapılan ödemeler için ödeme bildirimleri oluşturabilir. </li>
+              <li>Kullanıcı kendi rehberini ve bu rehber bünyesinde gruplarını oluşturabilir. Burada grup ya da rehber'e kayıt edilecekler de bir sınırlama yoktur. </li>
+              <li>Excel ile rehbere yeni kayıtlar ekleyebilir.</li>
+              <li>Kopyala yapıştır ile rehbere yeni kayıtlar ekleyebilir. </li>
+              <li>Üye mesaj gitmesini istemediği kişiler için bir karaliste oluşturabilir. Bu kişiler için yanlışlıkla gönderilse bile sms karşı tarafa iletilmeyecek, sistem onu iptal edecektir ve ödemesi geri iade edilecektir. </li>
+              <li>Rehber için oluşturulan grupları gruplar menüsü ile rahatlıkla yönetebilecektir. </li>
+              <li>Üye rehber üzerinden ad soyad, numara ya da gruba göre arama yapılabilir.</li>
+              <li>Üye kendi başlıklarını ve başvurularını "Originatör" menüsü altından yönetebilecektir.</li>
+              <li>Üye birden fazla Originatör tanımlayabilmektedir. </li>
+              <li>Üye "Raporlar" menüsü ile geçmişte gönderdiği ya da gitmeyi bekleyen gelecek için kaydettiği SMS'lerini görüntüleyebilir. </li>
+              <li>Üyeler ileri tarihli SMS'lerini görebilecekleri rapor ekranı ile gönderim zamanı gelmemiş SMS'lerini rahatça yönetebilirler.</li>
+              <li>Üye arşive alınmış SMS bilgilerini normal rapora göre daha yavaş olsa da görüntüleyebilir.</li>
+              <li>API menüsü ile API'a erişim için yeni bir uygulama anahtarı ve şifresi oluşturabilir. </li>
+              <li>Üye arayüzü için yazdığımız kullanım kılavuzuna menüden erişebilir.</li>
+              <li>Kullanıcı şifresini üye arayüzünden rahatlıkla değiştirebilir.</li>
+              <li>SMS menüsü ile tek tek sms gönderme, gruplara sms gönderme, tüm rehbere sms gönderme, seçerek sms gönderme, şablonla sms gönderme, Okul sms gönderme, toplu sms gönderme, aralıpa sms gönderme işlemlerini rahatlıkla yapabilirler. </li>
+              <li>SMS gönderme sayfasındaki önizleme ile gidecek SMS hakkında rahatça bilgi alabilir.</li>
+              <li>Sık gönderilen SMS'leri ilerde tekrar tekrar kullanabilmek için draft olarak kaydedebilirler.</li>
+              <li>Doğum günü veya Evlilik yıl dönümü gibi otomatik mesajları tanımlayabilirler. Rehberindeki kişilere günü geldiğinde bu mesajlar otomatik gidecektir.</li>
+              <li>Mobil uyumlu arayüz sayesinde tablet ya da telefonu üzerinden rahatça toplu sms gönderebilir.</li>
+              <li>Mesajlarına 1 Mayıs kanunu için eklemeleri rahatça yapabilir. Bu kapsamda kullanılacak kısa link hizmeti her kullanıcı için otomatik tanımlanmaktadır ve mesajları içerisinde en az karakteri kullanabilmesi sağlanmaktadır. Kullanıcının bunun için uğraşması gerekmemektedir.</li>
+              <li>JSON tabanlı ve XML tabanlı API'ları ile rahatça entegrasyon işlemlerini gerçekleştirebilir.</li>
+              <li>Sistem üzerinden Arapça SMS ve Unicode SMS gönderimlerini rahatça yapabilir. Arapça SMS için sağa yaslı mesaj kutusu ile mesajlarını daha rahat yazabilmektedir.</li>
+              <li>SMS gönderme sayfasından ayrılmadan daha önceki kayıtlı mesajlarını hızlı kısayollar ile rahatça ulaşabilmektedir.</li>              
+            </ol>
+
+            <h3>Bayi Arayüzü Özellikleri</h3>
+            <ol>
+              <li>Bayiler kendilerine müşterilerine aktarabilecekleri SMS kredisi satın alabilirler. Bunun için üye arayüzündeki kredi satın alma kısmı kullanılabilir.</li>
+              <li>Bayiler kendi alt müşterilerinin SMS raporlarına ulaşabilirler. İletilen iletilmeyen ya da bekleyen SMS'leri rahatça görebilirler.</li>
+              <li>Bayiler kendi kullanıcılarının bilgilerine rahatça ulaşabilirler ve istediklerine kendi kredisinden aktarabilirler.</li>
+              <li>Bayiler kullanıcılarının bilgilerini kolayca düzeltebilirler.</li>
+              <li>Bayiler kendi yaptığı kredi hareketlerini görebilecekleri bir rapor ekranı mevcuttur. Geçmiş hareketleri buradan takip edebilirler.</li>
+            </ol>
+
+            <h3>Admin Arayüzü Özellikleri</h3>
+            <ol>
+              <li>Sistem genel yöneticisi olarak kendi bayilerini oluşturabilir.</li>
+              <li>Sistem her bayi için kendi domain'i üzerinden servis edecekleri üye arayüzü imkanı sunmaktadır. Her bayi kendi üyelerini bayi arayüzünden yönetirken her bayi kullanıcısı da bayiye ait üye arayüzünden sistemi kullanabilir. </li>
+              <li>Üye arayüzü renkleri bayiye göre değiştirilebilmektedir.</li>
+              <li>Admin arayüzü üzerinden, üyeler tarafından oluşturulan ve onaya sunulan Mesaj Başlıklarını onaylama, reddetme ve silme işlemleri gerçekleştirebilir.</li>
+              <li>Sistem genelinde SMS gönderim raporları tarih, durum, kullanıcı bazlı olabilecek şekilde kolaylıkla alınabilir. </li>
+              <li>İleri tarhili olarak kaydedilen SMS'ler için de raporlar normal raporlar ile aynı filtreleme özellikleri ile kolaylıkla alınabilir. </li>
+              <li>Arşiv menüsü sayesinda belirli tarihler arasında arşivler kolaylıkla oluşturulabilir. Bu arşivler kullanıcı tarafında ekstra bir çalışma yapmadan otomatik olarak görünebilir.</li>
+              <li>SMS işlemleri ile SMS'ler üzerinde ekstra bir çok işlem yapılabilir.</li>
+              <li>Admin arayüzü üzerinden kullanıcıların API erişim bilgileri kolaylıkla yönetilebilir. (Onaylama, Silme işlemleri)</li>
+              <li>Sistem bazında kredi hareketlerine, bayi bazında kredi hareketlerine kolaylıkla ulaşılabilir. Bayi kredi satışları ve alımları kontrol edilebilir. Kredi karrtı ödemeleri için arayüz üzerinden yönetilebilir.</li>
+              <li>Sistem genelindeki tüm kullanıcılar kolaylıkla yönetilebilir.</li>
+              <li>Kullanıcılar için Tib kayıtları düzenleme ve kayıt işlemleri kullanıcılar menüsündan hızlıca yapılabilir. </li>
+              <li>Admin arayüzü üzerinden kullanıcılara kredi yüklenebilir ya da alınabilir. </li>
+              <li>Kullanıcılar için kaç sms göndermişler kaç kredileri kalmış hızlıca görebileceğiniz rapor ekranı mevcuttur. Kredisi azalan kullanıcılara bu arayüz üzerinden hızlıca ulaşılabilir.</li>
+              <li>Bayilerin yönetimi admin arayüzüden rahatça yapılabilir. Bayi düzenleme, kredi işlemleri yapılabilir ve detay bilgileri görüntülenebilir.</li>
+              <li>Admin arayüzünden bayilerin iletişim bilgileri, banka bilgilerinin bulunduğu sayfaların yönetimi kolayca yapılabilir.</li>
+              <li>Sistem üzerindeki güncellemeleri admin arayüzünden kolayca görebilirler.</li>
+              <li>Kuyruktaki mesajları ve mesaj akışını takip edebilecekleri bir izleme ekranı ile rahatça sistemin durumunu izlenebilir.</li>
+              <li>Sistem üzerinden sms gönderi ile ilgili çalışan işlemleri görüntüleyebilir ve servislerin durumunu kontrol edebilirler.</li>
+              <li>Kısayol servisi ile her üye için oluşturulan kısayolları yönetebilir ve kaç kez tıklandığına kimlerin tıkladığına gibi bir çok raporu rahatça alabilirler. </li>
+              <li>Kısayollar her kullanıcı kayıt olduğunda otomatik olarak oluşturulmaktadır. Admin olarak bir şey yapılması gerekmemektedir.</li>
+              <li>BTK için sistem entegre çalışmaktadır. BTK'nın istediği raporları otomatik üretip belirli aralıklarla göndermektedir.</li>
+              <li>İletilmeyen ya da atılda kalan SMS'ler için iade işlemleri otomatik yapılmaktadır. Admin üzerinden bunun için ekstra bir çaba gerekmemektedir.</li>
+            </ol>
+          </div>
+          
+          <div class="col-md-12">
             <div class="block">
               <div class="portfolio-menu">
                 <ul>
